@@ -1,4 +1,5 @@
 import 'package:drinks_orders_app/screens/home_screen.dart';
+import 'package:drinks_orders_app/screens/human_body_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class DrinksOrdersApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: HumanBody(),
     );
   }
 }

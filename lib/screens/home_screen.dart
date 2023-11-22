@@ -140,13 +140,17 @@ class MenuItem extends StatelessWidget {
                     softWrap: true,
                     maxLines: 3,
                     textAlign: TextAlign.left,
-                    style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500))
+                    style: TextStyle(
+                        fontSize: 12, color: Colors.black.withAlpha(130)))
               ],
             ),
           ),
         ),
-        Text(amount,
-            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500)),
+        Padding(
+          padding: const EdgeInsets.only(right: 10.0),
+          child: Text(amount,
+              style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500)),
+        ),
       ]),
     );
   }
